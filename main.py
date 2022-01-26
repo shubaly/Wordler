@@ -80,8 +80,7 @@ def main():
     # for frequency in frequencies:
     #     print({k: v for k, v in sorted(frequency.items(), key=lambda item: item[1])})
 
-    # possible_words = find_possibles('.ri..', 'adeusoftybng', '', wordlist)
-    possible_words = find_possibles('.ri..', 'housetalwngk', 'c', wordlist)
+    possible_words = find_possibles('..a..', 'dieusoftygrp', 'ah', wordlist)
     print(possible_words)
     print(len(possible_words))
 
